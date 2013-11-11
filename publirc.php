@@ -33,7 +33,7 @@ class PublIRC {
 		$this->socket = fsockopen($this->config['server'], $this->config['port']);
 		stream_set_blocking($this->socket, 0);
 		$this->connect();
-		$this->irc_join_channel('##Core'); // TODO: Proper startup channel system
+		$this->irc_join_channel('##antiB9'); // TODO: Proper startup channel system
 	}
 
 	function run() {
@@ -59,7 +59,7 @@ class PublIRC {
 		}
 	}
 
-	function send_line($line) {
+	function send_line($line) { // TODO: Message queue
 		echo $line . "\r\n";
 		fputs($this->socket, $line . "\r\n");
 		flush();
@@ -71,7 +71,7 @@ class PublIRC {
 
 	function connect($password = '') {
 		if ($password != '') {
-			$this->send_line('PASS ' + $password);
+			$this->send_line('PASS ' . $password);
 		}
 		$this->irc_nick($this->config['nick']);
 		$this->send_line('USER ' . $this->config['user'] . ' ' . $this->config['server'] . ' * :' . $this->config['name']);
@@ -127,14 +127,14 @@ class IRCColor {
 
 interface IRCScript {
 	public function __construct($bot); // on plugin initialization
-    public function message ($user, $channel, $message); // on any PRIVMSG
-    public function join    ($channel); // when the bot joins a channel
-    public function part    ($channel); // when the bot parts a channel
-    public function connect ($server); // when the bot connects to a server
-    public function userJoin($user, $channel); // when another user joins a channel
-    public function userPart($user, $channel); // when another user parts a channel
-    public function userQuit($user, $message); // when another user disconnects from a server
-    public function userKick($kicked, $kicker, $channel, $message); // when a user gets kicked from a channel
-    public function cycle   (); // every main loop cycle
-    public function all     ($line); // all incoming lines
+	public function message ($user, $channel, $message); // on any PRIVMSG
+	public function join    ($channel); // when the bot joins a channel
+	public function part    ($channel); // when the bot parts a channel
+	public function connect ($server); // when the bot connects to a server
+	public function userJoin($user, $channel); // when another user joins a channel
+	public function userPart($user, $channel); // when another user parts a channel
+	public function userQuit($user, $message); // when another user disconnects from a server
+	public function userKick($kicked, $kicker, $channel, $message); // when a user gets kicked from a channel
+	public function cycle   (); // every main loop cycle
+	public function all     ($line); // all incoming lines
 }
