@@ -14,7 +14,7 @@ include_once 'commands/basicAdmin.php';
 include_once 'commands/highdeas.php';
 include_once 'commands/Ping.php';
 include_once 'commands/Hooker/Hooker.php';
-include_once 'commands/Basics.php';
+
 class PublIRC {
 	private $socket = NULL;
 	public $config = array(
@@ -39,7 +39,6 @@ class PublIRC {
 		array_push($this->loaded_modules, new currency($this));
 		array_push($this->loaded_modules, new Ping($this));
 		array_push($this->loaded_modules, new Hooker($this));
-		array_push($this->loaded_modules, new Basics($this));
 
 		$this->socket = fsockopen($this->config['server'], $this->config['port']);
 		stream_set_blocking($this->socket, 0);
