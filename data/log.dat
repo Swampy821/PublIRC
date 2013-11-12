@@ -1,0 +1,83 @@
+[2013-11-12 18:28:38] :morgan.freenode.net NOTICE * :*** Looking up your hostname...
+[2013-11-12 18:28:38] :morgan.freenode.net NOTICE * :*** Checking Ident
+[2013-11-12 18:28:38] :morgan.freenode.net NOTICE * :*** Couldn't look up your hostname
+[2013-11-12 18:28:38] :morgan.freenode.net NOTICE * :*** No Ident response
+[2013-11-12 18:28:38] :morgan.freenode.net 001 DeDubs :Welcome to the freenode Internet Relay Chat Network DeDubs
+[2013-11-12 18:28:38] :morgan.freenode.net 002 DeDubs :Your host is morgan.freenode.net[2610:150:2c68::d0:dab:1de5/6667], running version ircd-seven-[2013-11-12 18:28:38] 1.1.3
+[2013-11-12 18:28:38] :morgan.freenode.net 003 DeDubs :This server was created Tue Mar 12 2013 at 18:27:25 EDT
+[2013-11-12 18:28:38] :morgan.freenode.net 004 DeDubs morgan.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+[2013-11-12 18:28:38] :morgan.freenode.net 005 DeDubs CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ [2013-11-12 18:28:38] MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+[2013-11-12 18:28:38] :morgan.freenode.net 005 DeDubs CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE[2013-11-12 18:28:38]  DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server[2013-11-12 18:28:38] 
+[2013-11-12 18:28:38] :morgan.freenode.net 005 DeDubs EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+[2013-11-12 18:28:38] :morgan.freenode.net 251 DeDubs :There are 211 users and 90636 invisible on 29 servers
+[2013-11-12 18:28:38] :morgan.freenode.net 252 DeDubs 30 :IRC Operators online
+[2013-11-12 18:28:38] :morgan.freenode.net 253 DeDubs 5 :unknown connection(s)
+[2013-11-12 18:28:38] :morgan.freenode.net 254 DeDubs 52576 :channels formed
+[2013-11-12 18:28:38] :morgan.freenode.net 255 DeDubs :I have 5508 clients and 1 servers
+[2013-11-12 18:28:38] :morgan.freenode.net 265 DeDubs 5508 7852 :Current local users 5508, max 7852
+[2013-11-12 18:28:38] :morgan.freenode.net 266 DeDubs 90847 92677 :Current global users 90847, max 92677
+[2013-11-12 18:28:38] :morgan.freenode.net 250 DeDubs :Highest connection count: 7853 (7852 clients) (1620880 connections received)
+[2013-11-12 18:28:38] :morgan.freenode.net 375 DeDubs :- morgan.freenode.net Message of the Day - 
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- Welcome to morgan.freenode.net in Chicago, IL, USA! Thank
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- you to psyprus for sponsoring this server!
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :-  
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- MORGAN, RICHARD K. (1965-) is an English science fiction
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- author. Morgan's books are generally set in a dystopian world.
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- His breakout novel Altered Carbon won the Philip K. Dick Award,
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- and he has written many successful and amazing works to follow.
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- His more recent writings explore the theme of autonomy
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- in science fiction and escapism in fantasy.
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :-  
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :-  
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- Welcome to freenode - supporting the free and open source
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- software communities since 1998.
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :-  
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- By connecting to freenode you indicate that you have read and
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- agree to adhere to our policies and procedures as per the
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- website (http://freenode.net/).
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :-  
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- We would like to remind you that unauthorised public logging
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- of channels on the network is prohibited. Public channel
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- logging should only take place where the channel owner(s) has
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- requested this and users of the channel are all made aware
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- (if you are publically logging your channel, you may wish to 
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- keep a notice in the topic and perhaps as an on-join message).
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :-  
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- freenode runs an open proxy scanner. For details on freenode 
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- network policy, please take a look at our policy page 
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- (http://freenode.net/policy.shtml).  Your use of the network
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- indicates your acceptance of this policy.
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :-  
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- Please join #freenode for any network-related questions or
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- queries[2013-11-12 18:28:38] , there are numerous freenode volunteers and helpful
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- users who would be happy to try answer any questions you might
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- have.
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :-  
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- Check out www.fossevents.org to find out what is happening in
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- your area, join us at FOSSCON (www.fosscon.org) for talks and
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- real-life collaboration or bring a picnic and come join
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- close to you. 
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- Lastly, massive thanks to the OSU Open Source Lab
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- (http://osuosl.org/) and Private Internet Access
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- (https://www.privateinternetaccess.com/) for their sustained,
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- long term support and dedication they show to the FOSS
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- communities.
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :-  
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- ***************************************************************
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+[2013-11-12 18:28:38] :morgan.freenode.net 372 DeDubs :- ***************************************************************
+[2013-11-12 18:28:38] :morgan.freenode.net 376 DeDubs :End of /MOTD command.
+[2013-11-12 18:28:38] :DeDubs MODE DeDubs :+i
+[2013-11-12 18:28:38] :NickServ!NickServ@services. NOTICE DeDubs :This nickname is registered. Please choose a different nickname, or identify via /[2013-11-12 18:28:38] msg NickServ identify <password>.
+[2013-11-12 18:28:44] :DeDubs!Kushner@2600:3c03::f03c:91ff:fe69:ed1a JOIN ##antiB9
+[2013-11-12 18:28:44] :morgan.freenode.net 332 DeDubs ##antiB9 : testing 123
+[2013-11-12 18:28:44] :morgan.freenode.net 333 DeDubs ##antiB9 DeDubs!Kushner@2600:3c03::f03c:91ff:fe69:ed1a 1384280281
+[2013-11-12 18:28:44] :morgan.freenode.net 353 DeDubs = ##antiB9 :DeDubs @Zimdale @Demannu @SkySom @creativecoding @ChanServ @brayden @CoreSystems
+[2013-11-12 18:28:44] :morgan.freenode.net 366 DeDubs ##antiB9 :End of /NAMES list.
+[2013-11-12 18:28:50] :Demannu!quassel@2600:3c03::f03c:91ff:fe69:ed1a MODE ##antiB9 +o DeDubs
+[2013-11-12 18:28:54] :Demannu!quassel@2600:3c03::f03c:91ff:fe69:ed1a PRIVMSG ##antiB9 :DeDubs, deop SkySom
+[2013-11-12 18:28:54] :DeDubs!Kushner@2600:3c03::f03c:91ff:fe69:ed1a MODE ##antiB9 -o SkySom
+[2013-11-12 18:28:58] :Demannu!quassel@2600:3c03::f03c:91ff:fe69:ed1a PRIVMSG ##antiB9 :DeDubs, op SkySom
+[2013-11-12 18:28:58] :DeDubs!Kushner@2600:3c03::f03c:91ff:fe69:ed1a MODE ##antiB9 +o SkySom
+[2013-11-12 18:29:01] :Demannu!quassel@2600:3c03::f03c:91ff:fe69:ed1a PRIVMSG ##antiB9 :Good deal
