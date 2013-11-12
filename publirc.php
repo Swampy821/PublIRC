@@ -76,7 +76,6 @@ class PublIRC {
 			$data = fgets($this->socket, 128);
 			$this->log($data);
 			flush();
-S
 			$this->process_line($data);
 		}
 	}
