@@ -6,8 +6,12 @@
 //		return;
 //	}
 //}
+
 include_once 'sql.class.php';
 include_once 'commands/CakeFart.php';
+include_once 'commands/currency/currency.php';
+include_once 'commands/basicAdmin.php';
+include_once 'commands/highdeas.php';
 include_once 'commands/Ping.php';
 include_once 'commands/Hooker/Hooker.php';
 include_once 'commands/Basics.php';
@@ -30,7 +34,9 @@ class PublIRC {
 		$this->config = $config;
 
 		// TODO: Proper dynamic loading
-		array_push($this->loaded_modules, new CakeFart($this));
+		array_push($this->loaded_modules, new highdeas($this));
+		array_push($this->loaded_modules, new basicAdmin($this));
+		array_push($this->loaded_modules, new currency($this));
 		array_push($this->loaded_modules, new Ping($this));
 		array_push($this->loaded_modules, new Hooker($this));
 		array_push($this->loaded_modules, new Basics($this));
@@ -69,6 +75,7 @@ class PublIRC {
 			$this->irc_join_channel($this->config['startup_channel']);
 		}
 		/*-----------End Channel Startup Code--------------*/
+
 	}
 
 	function run() {
@@ -85,7 +92,7 @@ class PublIRC {
 			$explodedData = explode(' ', $data);
 			foreach ($this->loaded_modules as $module) { // TODO: REDO THIS WHOLE PART. JUST JUNK FOR TESTING
 				if (sizeof($explodedData) > 3 and $explodedData[1] == 'PRIVMSG') {
-					$module->message(substr(explode('!', $explodedData[0])[0], 1), $explodedData[2], substr(implode(array_slice($explodedData, 3), ' '), 1));
+					$module->message(substr(explode('!', $explodedData[0])[0], 1), $explodedData[2], rtrim(substr(implode(array_slice($explodedData, 3), ' '), 1)));
 				}
 				$module->all($data);
 					// TODO: Support for all plugin events.
@@ -136,6 +143,14 @@ class PublIRC {
 		$this->send_line('QUIT :' . $reason);
 		$this->running = false;
 		fclose($this->socket);
+	}
+	
+	function irc_op($channel, $user) {
+		$this->send_line('MODE ' . $channel . ' +o ' . $user);
+	}
+	
+	function irc_deop($channel, $user) {
+		$this->send_line('MODE ' . $channel . ' -o ' . $user);
 	}
 }
 

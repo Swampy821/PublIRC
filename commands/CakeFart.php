@@ -1,6 +1,7 @@
 <?php
 
-//include_once "publirc.php";
+
+include_once "../publirc.php";
 
 class CakeFart implements IRCScript {
     private $bot;
