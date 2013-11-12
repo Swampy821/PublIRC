@@ -15,7 +15,6 @@ class currency extends currency_plugin implements IRCScript {
 	public function __construct($bot) {
         $this->bot = $bot;
 	}
-
     public function message($user, $channel, $message) {
     	$db = array(
 	'user' => 1,
@@ -27,8 +26,7 @@ class currency extends currency_plugin implements IRCScript {
 		if($boom[0]=='!money'){
 			$command = $boom[1]; 
 		  	if($boom[1]=="balance"){
-		  		$message1 = $user." Your balance is ".$db['balance']." Thank you and have a good day";
-		  		$this->bot->irc_message($user, $message1);
+		  		$this->getBalance($user);
 		  	} elseif($command == "add") {
 		  		$message2 = "Tell Zimdale to hurry up on the DB so I can work";
 				$this->bot->irc_message($channel, $message2);
