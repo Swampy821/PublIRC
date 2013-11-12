@@ -10,7 +10,7 @@ $config = array(
     'port'   => 6667,
     'nick'   => 'DeDubs',
     'user'   => 'Kushner', 
-    'name'   => 'DeDubsKushner',
+    'name'   => 'DeKushner',
     'pass'   => ''
 );
 
