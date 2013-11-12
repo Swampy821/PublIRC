@@ -1,6 +1,6 @@
 <?php
 
-include_once "publirc.php";
+//include_once "publirc.php";
 
 class CakeFart implements IRCScript {
     private $bot;
@@ -10,9 +10,9 @@ class CakeFart implements IRCScript {
 	}
 
     public function message($user, $channel, $message) {
-        if (rand(1, 5) === 3) {
-            $this->bot->irc_action($channel, 'eats a cake and FARTS LOUDLY.');
-        }
+       // if (rand(1, 5) === 3) {
+            //$this->bot->irc_action($channel, 'eats a cake and FARTS LOUDLY.');
+        //}
     }
 
     public function join($channel) {

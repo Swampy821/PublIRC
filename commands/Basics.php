@@ -2,7 +2,7 @@
 
 //include_once "publirc.php";
 
-class Ping implements IRCScript {
+class Basics implements IRCScript {
     private $bot;
 
 	public function __construct($bot) {
@@ -10,7 +10,13 @@ class Ping implements IRCScript {
 	}
 
     public function message($user, $channel, $message) {
-
+    $message = rtrim($message);
+    $check = rtrim(strtolower("go away ".$this->bot->config['nick']));
+    $message = substr($message,0,strlen($check));
+       if(strtolower($message) == strtolower($check))
+       {
+            $this->bot->irc_quit("Gone Bananas!");
+       }
     }
 
     public function join($channel) {
@@ -46,8 +52,6 @@ class Ping implements IRCScript {
     }
 
     public function all($line) {
-        if (strpos($line, 'PING') === 0 and strpos($line, ' ') !== FALSE) {
-            $this->bot->send_line('PONG ' . explode(' ', $line)[1]);
-        }
+
     }
 }
