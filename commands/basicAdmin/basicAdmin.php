@@ -1,7 +1,5 @@
 <?php
 
-include_once "publirc.php";
-
 class basicAdmin implements IRCScript {
 	 private $admin = array(
 	 	'CoreSystems',
@@ -39,19 +37,25 @@ class basicAdmin implements IRCScript {
 			$this->bot->irc_quit();
 			// No idea how to get it to restart itself
 			
-		} elseif($bA_boom[0]=='!op') {
+		} elseif(strtolower($bA_boom[0])==strtolower($this->bot->config['nick'].',') && strtolower($bA_boom[1])=='op') {
+				if(strtolower($bA_boom[2])=='me')
+				{
+					$bA_boom[2]=$user;
+				}
+				$this->bot->irc_op($channel, $bA_boom[2]);
 			
-			$this->bot->irc_op($channel, $bA_boom[1]);
-			
-		} elseif($bA_boom[0]=='!deop') {
-			
-			if($bA_boom[1]==$this->bot->config['nick']) {
-				
+		} elseif(strtolower($bA_boom[0])==strtolower($this->bot->config['nick'].',') && strtolower($bA_boom[1])=='deop') {
+			if(strtolower($bA_boom[2])=='me')
+				{
+					$bA_boom[2]=$user;
+				}
+			if($bA_boom[2]==$this->bot->config['nick']) {
+
 				$this->bot->irc_message($channel, "How about fuck yourself");
 				
 			} else {
 				
-			$this->bot->irc_deop($channel, $bA_boom[1]);
+			$this->bot->irc_deop($channel, $bA_boom[2]);
 			
 			}
 			

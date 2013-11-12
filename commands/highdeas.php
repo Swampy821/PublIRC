@@ -1,7 +1,5 @@
 <?php
 
-include_once "publirc.php";
-
 class highdeas implements IRCScript {
 	 private $bot;
 

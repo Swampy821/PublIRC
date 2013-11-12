@@ -82,6 +82,7 @@ class PublIRC {
 			$this->log($data);
 			flush();
 			$this->process_line($data);
+			//time_nanosleep(0, 300000000);
 		}
 	}
 
