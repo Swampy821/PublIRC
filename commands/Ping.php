@@ -1,6 +1,6 @@
 <?php
 
-include_once "publirc.php";
+include_once "../publirc.php";
 
 class Ping implements IRCScript {
     private $bot;

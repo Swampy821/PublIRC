@@ -21,7 +21,7 @@ class PublIRC {
 		'pass'   => ''
 	);
 	private $running = true;
-	private $loaded_modules = array();
+	public $loaded_modules = array();
 
 	function __construct($config) {
 		$this->config = $config;
@@ -51,7 +51,7 @@ class PublIRC {
 			$explodedData = explode(' ', $data);
 			foreach ($this->loaded_modules as $module) { // TODO: REDO THIS WHOLE PART. JUST JUNK FOR TESTING
 				if (sizeof($explodedData) > 3 and $explodedData[1] == 'PRIVMSG') {
-					$module->message(substr(explode('!', $explodedData[0])[0], 1), $explodedData[2], substr(implode(array_slice($explodedData, 3), ' '), 1));
+					$module->message(substr(explode('!', $explodedData[0])[0], 1), $explodedData[2], rtrim(substr(implode(array_slice($explodedData, 3), ' '), 1)));
 				}
 				$module->all($data);
 				// TODO: Support for all plugin events.
