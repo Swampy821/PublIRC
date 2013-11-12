@@ -6,9 +6,9 @@
 //		return;
 //	}
 //}
-
 include_once 'commands/currency/currency.php';
 include_once 'commands/basicAdmin.php';
+include_once 'commands/highdeas.php';
 include_once 'commands/Ping.php';
 
 class PublIRC {
@@ -28,6 +28,7 @@ class PublIRC {
 		$this->config = $config;
 
 		// TODO: Proper dynamic loading
+		array_push($this->loaded_modules, new highdeas($this));
 		array_push($this->loaded_modules, new basicAdmin($this));
 		array_push($this->loaded_modules, new currency($this));
 		array_push($this->loaded_modules, new Ping($this));
@@ -35,7 +36,7 @@ class PublIRC {
 		$this->socket = fsockopen($this->config['server'], $this->config['port']);
 		stream_set_blocking($this->socket, 0);
 		$this->connect();
-		$this->irc_join_channel('#chat'); // TODO: Proper startup channel system
+		$this->irc_join_channel('##antib9'); // TODO: Proper startup channel system
 	}
 
 	function run() {
