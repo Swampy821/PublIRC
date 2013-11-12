@@ -7,7 +7,7 @@
 //	}
 //}
 
-include_once 'commands/CakeFart.php';
+include_once 'commands/currency/currency.php';
 include_once 'commands/Ping.php';
 
 class PublIRC {
@@ -27,7 +27,7 @@ class PublIRC {
 		$this->config = $config;
 
 		// TODO: Proper dynamic loading
-		array_push($this->loaded_modules, new CakeFart($this));
+		array_push($this->loaded_modules, new currency($this));
 		array_push($this->loaded_modules, new Ping($this));
 
 		$this->socket = fsockopen($this->config['server'], $this->config['port']);
