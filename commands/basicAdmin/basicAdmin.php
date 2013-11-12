@@ -4,10 +4,10 @@ include_once "publirc.php";
 
 class basicAdmin implements IRCScript {
 	 private $admin = array(
-	 'admin' => 'CoreSystems',
-	 'admin' => 'Zimdale',
-	 'admin' => 'SkySom',
-	 'admin' => 'Demannu'
+	 	'CoreSystems',
+	 	'Zimdale',
+	 	'SkySom',
+	 	'Demannu'
 	 );
 	 
 	private $bot;
@@ -19,7 +19,7 @@ class basicAdmin implements IRCScript {
     public function message($user, $channel, $message) {
 		$bA_boom = explode(" ", $message);
 		if($bA_boom[0]=='!quit') {
-			if($user=='Demannu'){
+			if(in_array($user,$this->admin)){
 				$this->bot->irc_message($channel, 'As you command master');
 				$this->bot->irc_quit('');
 			} else {
@@ -45,7 +45,7 @@ class basicAdmin implements IRCScript {
 			
 		} elseif($bA_boom[0]=='!deop') {
 			
-			if($bA_boom[1]=='DeDubs') {
+			if($bA_boom[1]==$this->bot->config['nick']) {
 				
 				$this->bot->irc_message($channel, "How about fuck yourself");
 				
@@ -68,7 +68,7 @@ class basicAdmin implements IRCScript {
     }
 
     public function join($channel) {
-		$message = 'Greetings '.$channel.', I am DeDubs. Banker, Dealer, and Pimp. Hit a dude up with !help';
+		$message = 'Greetings '.$channel.', I am '.$this->bot->config['Nick'].'. Banker, Dealer, and Pimp. Hit a dude up with !help';
 		$this->bot->irc_message($channel, $message);
     }
 
@@ -103,7 +103,7 @@ class basicAdmin implements IRCScript {
     public function all($line) {
     	$stamp = date("Y-m-d H:i:s");
 		$log_line = "[".$stamp."] ".$line;
-		$openlog = fopen('data/log.dat', 'a+');
+		$openlog = fopen('c:/wamp/www/PublIRC/PublIRC/data/log.dat', 'a+');
 		fwrite($openlog, $log_line);
 		fclose($openlog);
     }

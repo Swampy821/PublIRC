@@ -486,3 +486,378 @@
 [2013-11-12 14:21:36] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :I merged this morning
 [2013-11-12 14:21:40] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :so now everyone should be on the same page
 [2013-11-12 14:22:14] PING :morgan.freenode.net
+[2013-11-12 14:43:51] :rothfuss.freenode.net NOTICE * :*** Looking up your hostname...
+[2013-11-12 14:43:51] :rothfuss.freenode.net NOTICE * :*** Checking Ident
+[2013-11-12 14:43:51] :rothfuss.freenode.net NOTICE * :*** No Ident response
+[2013-11-12 14:43:51] :rothfuss.freenode.net NOTICE * :*** Found your hostname
+[2013-11-12 14:43:51] :rothfuss.freenode.net 001 Sharon :Welcome to the freenode Internet Relay Chat Network Sharon
+[2013-11-12 14:43:51] :rothfuss.freenode.net 002 Sharon :Your host is rothfuss.freenode.net[192.166.143.49/6667], running version ircd-seven-1.1.3
+[2013-11-12 14:43:51] :rothfuss.freenode.net 003 Sharon :This server was created Sun Aug 25 2013 at 22:48:58 CEST
+[2013-11-12 14:43:51] :rothfuss.freenode.net 004 Sharon rothfuss.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjf[2013-11-12 14:43:51] I
+[2013-11-12 14:43:51] :rothfuss.freenode.net 005 Sharon CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@[2013-11-12 14:43:51] + MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+[2013-11-12 14:43:51] :rothfuss.freenode.net 005 Sharon CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTI[2013-11-12 14:43:51] CE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this serv[2013-11-12 14:43:51] er
+[2013-11-12 14:43:51] :rothfuss.freenode.net 005 Sharon EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+[2013-11-12 14:43:51] :rothfuss.freenode.net 251 Sharon :There are 205 users and 88792 invisible on 29 servers
+[2013-11-12 14:43:51] :rothfuss.freenode.net 252 Sharon 30 :IRC Operators online
+[2013-11-12 14:43:51] :rothfuss.freenode.net 253 Sharon 5 :unknown connection(s)
+[2013-11-12 14:43:51] :rothfuss.freenode.net 254 Sharon 52421 :channels formed
+[2013-11-12 14:43:51] :rothfuss.freenode.net 255 Sharon :I have 4823 clients and 1 servers
+[2013-11-12 14:43:51] :rothfuss.freenode.net 265 Sharon 4823 6517 :Current local users 4823, max 6517
+[2013-11-12 14:43:51] :rothfuss.freenode.net 266 Sharon 88997 92582 :Current global users 88997, max 92582
+[2013-11-12 14:43:51] :rothfuss.freenode.net 250 Sharon :Highest connection count: 6518 (6517 clients) (157109 connections received)
+[2013-11-12 14:43:51] :rothfuss.freenode.net 375 Sharon :- rothfuss.freenode.net Message of the Day - 
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- Welcome to rothfuss.freenode.net in Paris, France, EU! Thanks to
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- the ISVTEC for sponsoring this server!
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :-  
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :-  
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- Patrick James Rothfuss (born June 6, 1973) is an American fantasy
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- writer and college lecturer. He is the author of the projected
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- three-volume series The Kingkiller Chronicle. Patrick Rothfuss was
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- born in Madison, Wisconsin, and received his B.S. in English from
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- the University of Wisconsin–Stevens Point in 1999 after spending
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- nine years as an undergraduate exploring various majors such as
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- Chemical Engineering, Clinical Psychology, and others.
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- Welcome to freenode - supporting the free and open source
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- software communities since 1998.
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :-  
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- By connecting to freenode you indicate that you have read and
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- agree to adhere to our policies and procedures as per the
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- website (http://freenode.net/).
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :-  
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- We would like to remind you that unauthorised public logging
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- of channels on the network is prohibited. Public channel
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- logging should only take place where the channel owner(s) has
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- requested this and users of the channel are all made aware
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- (if you are publically logging your channel, you may wish to 
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- keep a notice in the topic and perhaps as an on-join message).
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :-  
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- freenode runs an open proxy scanner. For details on freenode 
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- network policy, please take a look at our policy page 
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- (http://freenode.net/policy.shtml).  Your use of the network
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- indicates your acceptance of this policy.
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :-  
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- Please join #freenode for any network-related questions or
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- queries, there are numerous freenode volunteers and helpful
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- users who would be happy to try answer any questions you might
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- have.
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :-  
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- Check out www.fossevents.org to find out what is happening in
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- your area, join us at FOSSCON (www.fosscon.org) for talks and
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- real-life collaboration or bring a picnic and come join
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- close to you. 
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- Lastly, massive thanks to the OSU Open Source Lab
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- (http://osuosl.org/) and Private Internet Access
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- (https://www.privateinternetaccess.com/) for their sustained,
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- long term support and dedication they show to the FOSS
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- communities.
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :-  
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- ***************************************************************
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+[2013-11-12 14:43:51] :rothfuss.freenode.net 372 Sharon :- ***************************************************************
+[2013-11-12 14:43:51] :rothfuss.freenode.net 376 Sharon :End of /MOTD command.
+[2013-11-12 14:43:51] :Sharon MODE Sharon :+i
+[2013-11-12 14:43:51] :NickServ!NickServ@services. NOTICE Sharon :This nickname is registered. Please choose a different nickname, or identify via /[2013-11-12 14:43:51] msg NickServ identify <password>.
+[2013-11-12 14:44:13] :Sharon!~Sharon@68-22-13-155.moeller.com JOIN ##antiB9
+[2013-11-12 14:44:13] :rothfuss.freenode.net 332 Sharon ##antiB9 :[Anti-B9] Blackjack and Hookers | http://pastebin.com/R64wvXB4 | We're adults, poli[2013-11-12 14:44:13] ce yourself
+[2013-11-12 14:44:13] :rothfuss.freenode.net 333 Sharon ##antiB9 Demannu!quassel@2600:3c03::f03c:91ff:fe69:ed1a 1383970671
+[2013-11-12 14:44:13] :rothfuss.freenode.net 353 Sharon = ##antiB9 :Sharon Zimdale @Demannu @SkySom @creativecoding @ChanServ brayden @CoreSystems
+[2013-11-12 14:44:13] :rothfuss.freenode.net 366 Sharon ##antiB9 :End of /NAMES list.
+[2013-11-12 14:44:20] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :I am also getting a lot of failed to open strings.
+[2013-11-12 14:44:23] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!hooker $5
+[2013-11-12 14:44:27] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!hooker prices
+[2013-11-12 14:44:36] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!quit
+[2013-11-12 14:44:39] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :D8
+[2013-11-12 14:44:43] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :BET YOU DON'T!
+[2013-11-12 14:46:28] :card.freenode.net NOTICE * :*** Looking up your hostname...
+[2013-11-12 14:46:28] :card.freenode.net NOTICE * :*** Checking Ident
+[2013-11-12 14:46:28] :card.freenode.net NOTICE * :*** Found your hostname
+[2013-11-12 14:46:28] :card.freenode.net NOTICE * :*** No Ident response
+[2013-11-12 14:46:28] :card.freenode.net 001 Sharon :Welcome to the freenode Internet Relay Chat Network Sharon
+[2013-11-12 14:46:28] :card.freenode.net 002 Sharon :Your host is card.freenode.net[38.229.70.20/6667], running version ircd-seven-1.1.3
+[2013-11-12 14:46:28] :card.freenode.net 003 Sharon :This server was created Sun Dec 11 2011 at 22:16:10 UTC
+[2013-11-12 14:46:28] :card.freenode.net 004 Sharon card.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+[2013-11-12 14:46:28] :card.freenode.net 005 Sharon CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MA[2013-11-12 14:46:28] XLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+[2013-11-12 14:46:28] :card.freenode.net 005 Sharon CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE D[2013-11-12 14:46:28] EAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+[2013-11-12 14:46:28] :card.freenode.net 005 Sharon EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+[2013-11-12 14:46:28] :card.freenode.net 251 Sharon :There are 205 users and 88898 invisible on 29 servers
+[2013-11-12 14:46:28] :card.freenode.net 252 Sharon 30 :IRC Operators online
+[2013-11-12 14:46:28] :card.freenode.net 253 Sharon 4 :unknown connection(s)
+[2013-11-12 14:46:28] :card.freenode.net 254 Sharon 52421 :channels formed
+[2013-11-12 14:46:28] :card.freenode.net 255 Sharon :I have 3462 clients and 11 servers
+[2013-11-12 14:46:28] :card.freenode.net 265 Sharon 3462 9927 :Current local users 3462, max 9927
+[2013-11-12 14:46:28] :card.freenode.net 266 Sharon 89103 92677 :Current global users 89103, max 92677
+[2013-11-12 14:46:28] :card.freenode.net 250 Sharon :Highest connection count: 9931 (9927 clients) (5476959 connections received)
+[2013-11-12 14:46:28] :card.freenode.net 375 Sharon :- card.freenode.net Message of the Day - 
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- Team Cymru (http://www.team-cymru.org).
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- CARD, ORSON SCOTT [1951-].  Born in Richland, Washington, Card grew up in
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- California, Arizona, and Utah.  He lived in Brazil for two years as an
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- unpaid missionary for the Mormon Church.  Author of the Ender and Alvin
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- Maker books, Card's science fiction and fantasy work is strongly influenced
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- by his Mormon cultural background.  The first author to win the Hugo and
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- Nebula novel awards two years in a row, Card currently lives in Greensboro,
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- North Carolina, US.
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- Welcome to freenode - supporting the free and open source
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- software communities since 1998.
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- By connecting to freenode you indicate that you have read and
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- agree to adhere to our policies and procedures as per the
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- website (http://freenode.net/).
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- We would like to remind you that unauthorised public logging
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- of channels on the network is prohibited. Public channel
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- logging should only take place where the channel owner(s) has
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- requested this and users of the channel are all made aware
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- (if you are publically logging your channel, you may wish to 
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- keep a notice in the topic and perhaps as an on-join message).
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- freenode runs an open proxy scanner. For details on freenode 
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- network policy, please take a look at our policy page 
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- (http://freenode.net/policy.shtml).  Your use of the network
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- indicates your acceptance of this policy.
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- Please join #freenode for any network-related questions or
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- queries, there are numerous freenode volunteers and helpful
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- users who would be happy to try answer any questions you might
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- have.
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- Check out www.fossevents.org to find out what is happening in
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- your area, join us at FOSSCON (www.fosscon.org) for talks and
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- real-life collaboration or bring a picnic and come join
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- close to you. 
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- Lastly, massive thanks to the OSU Open Source Lab
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- (http://osuosl.org/) and Private Internet Access
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- (https://www.privateinternetaccess.com/) for their sustained,
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- long term support and dedication they show to the FOSS
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- communities.
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- ***************************************************************
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+[2013-11-12 14:46:28] :card.freenode.net 372 Sharon :- ***************************************************************
+[2013-11-12 14:46:28] :card.freenode.net 376 Sharon :End of /MOTD command.
+[2013-11-12 14:46:28] :Sharon MODE Sharon :+i
+[2013-11-12 14:46:28] :NickServ!NickServ@services. NOTICE Sharon :This nickname is registered. Please choose a different nickname, or identify via /[2013-11-12 14:46:28] msg NickServ identify <password>.
+[2013-11-12 14:46:34] :Sharon!~Sharon@68-22-13-155.moeller.com JOIN ##antiB9
+[2013-11-12 14:46:34] :card.freenode.net 332 Sharon ##antiB9 :[Anti-B9] Blackjack and Hookers | http://pastebin.com/R64wvXB4 | We're adults, police y[2013-11-12 14:46:34] ourself
+[2013-11-12 14:46:34] :card.freenode.net 333 Sharon ##antiB9 Demannu!quassel@2600:3c03::f03c:91ff:fe69:ed1a 1383970671
+[2013-11-12 14:46:34] :card.freenode.net 353 Sharon = ##antiB9 :Sharon Zimdale @Demannu @SkySom @creativecoding @ChanServ brayden @CoreSystems
+[2013-11-12 14:46:34] :card.freenode.net 366 Sharon ##antiB9 :End of /NAMES list.
+[2013-11-12 14:46:36] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!quit
+[2013-11-12 14:46:41] :card.freenode.net NOTICE * :*** Looking up your hostname...
+[2013-11-12 14:46:41] :card.freenode.net NOTICE * :*** Checking Ident
+[2013-11-12 14:46:41] :card.freenode.net NOTICE * :*** No Ident response
+[2013-11-12 14:46:41] :card.freenode.net NOTICE * :*** Found your hostname
+[2013-11-12 14:46:41] :card.freenode.net 001 Sharon :Welcome to the freenode Internet Relay Chat Network Sharon
+[2013-11-12 14:46:41] :card.freenode.net 002 Sharon :Your host is card.freenode.net[38.229.70.20/6667], running version ircd-seven-1.1.3
+[2013-11-12 14:46:41] :card.freenode.net 003 Sharon :This server was created Sun Dec 11 2011 at 22:16:10 UTC
+[2013-11-12 14:46:41] :card.freenode.net 004 Sharon card.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+[2013-11-12 14:46:41] :card.freenode.net 005 Sharon CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MA[2013-11-12 14:46:41] XLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+[2013-11-12 14:46:41] :card.freenode.net 005 Sharon CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE D[2013-11-12 14:46:41] EAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+[2013-11-12 14:46:41] :card.freenode.net 005 Sharon EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+[2013-11-12 14:46:41] :card.freenode.net 251 Sharon :There are 205 users and 88918 invisible on 29 servers
+[2013-11-12 14:46:41] :card.freenode.net 252 Sharon 30 :IRC Operators online
+[2013-11-12 14:46:41] :card.freenode.net 253 Sharon 7 :unknown connection(s)
+[2013-11-12 14:46:41] :card.freenode.net 254 Sharon 52422 :channels formed
+[2013-11-12 14:46:41] :card.freenode.net 255 Sharon :I have 3465 clients and 11 servers
+[2013-11-12 14:46:41] :card.freenode.net 265 Sharon 3465 9927 :Current local users 3465, max 9927
+[2013-11-12 14:46:41] :card.freenode.net 266 Sharon 89123 92677 :Current global users 89123, max 92677
+[2013-11-12 14:46:41] :card.freenode.net 250 Sharon :Highest connection count: 9931 (9927 clients) (5476965 connections received)
+[2013-11-12 14:46:41] :card.freenode.net 375 Sharon :- card.freenode.net Message of the Day - 
+[2013-11-12 14:46:41] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:41] :card.freenode.net 372 Sharon :- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+[2013-11-12 14:46:41] :card.freenode.net 372 Sharon :- Team Cymru (http://www.team-cymru.org).
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- CARD, ORSON SCOTT [1951-].  Born in Richland, Washington, Card grew up in
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- California, Arizona, and Utah.  He lived in Brazil for two years as an
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- unpaid missionary for the Mormon Church.  Author of the Ender and Alvin
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- Maker books, Card's science fiction and fantasy work is strongly influenced
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- by his Mormon cultural background.  The first author to win the Hugo and
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- Nebula novel awards two years in a row, Card currently lives in Greensboro,
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- North Carolina, US.
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- Welcome to freenode - supporting the free and open source
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- software communities since 1998.
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- By connecting to freenode you indicate that you have read and
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- agree to adhere to our policies and procedures as per the
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- website (http://freenode.net/).
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- We would like to remind you that unauthorised public logging
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- of channels on the network is prohibited. Public channel
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- logging should only take place where the channel owner(s) has
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- requested this and users of the channel are all made aware
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- (if you are publically logging your channel, you may wish to 
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- keep a notice in the topic and perhaps as an on-join message).
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- freenode runs an open proxy scanner. For details on freenode 
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- network policy, please take a look at our policy page 
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- (http://freenode.net/policy.shtml).  Your use of the network
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- indicates your acceptance of this policy.
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- Please join #freenode for any network-related questions or
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- queries, there are numerous freenode volunteers and helpful
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- users who would be happy to try answer any questions you might
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- have.
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- Check out www.fossevents.org to find out what is happening in
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- your area, join us at FOSSCON (www.fosscon.org) for talks and
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- real-life collaboration or bring a picnic and come join
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- close to you. 
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- Lastly, massive thanks to the OSU Open Source Lab
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- (http://osuosl.org/) and Private Internet Access
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- (https://www.privateinternetaccess.com/) for their sustained,
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- long term support and dedication they show to the FOSS
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- communities.
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :-  
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- ***************************************************************
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+[2013-11-12 14:46:42] :card.freenode.net 372 Sharon :- ***************************************************************
+[2013-11-12 14:46:42] :card.freenode.net 376 Sharon :End of /MOTD command.
+[2013-11-12 14:46:42] :Sharon MODE Sharon :+i
+[2013-11-12 14:46:42] :NickServ!NickServ@services. NOTICE Sharon :This nickname is registered. Please choose a different nickname, or identify via /[2013-11-12 14:46:42] msg NickServ identify <password>.
+[2013-11-12 14:46:47] :Sharon!~Sharon@68-22-13-155.moeller.com JOIN ##antiB9
+[2013-11-12 14:46:47] :card.freenode.net 332 Sharon ##antiB9 :[Anti-B9] Blackjack and Hookers | http://pastebin.com/R64wvXB4 | We're adults, police y[2013-11-12 14:46:47] ourself
+[2013-11-12 14:46:47] :card.freenode.net 333 Sharon ##antiB9 Demannu!quassel@2600:3c03::f03c:91ff:fe69:ed1a 1383970671
+[2013-11-12 14:46:47] :card.freenode.net 353 Sharon = ##antiB9 :Sharon Zimdale @Demannu @SkySom @creativecoding @ChanServ brayden @CoreSystems
+[2013-11-12 14:46:47] :card.freenode.net 366 Sharon ##antiB9 :End of /NAMES list.
+[2013-11-12 14:47:12] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :Skysom do a !quit to the bot
+[2013-11-12 14:47:24] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :!GOFUCKYOUSELF
+[2013-11-12 14:47:27] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :!quit
+[2013-11-12 14:50:15] :hubbard.freenode.net NOTICE * :*** Looking up your hostname...
+[2013-11-12 14:50:15] :hubbard.freenode.net NOTICE * :*** Checking Ident
+[2013-11-12 14:50:15] :hubbard.freenode.net NOTICE * :*** No Ident response
+[2013-11-12 14:50:15] :hubbard.freenode.net NOTICE * :*** Found your hostname
+[2013-11-12 14:50:15] :hubbard.freenode.net 001 Sharon :Welcome to the freenode Internet Relay Chat Network Sharon
+[2013-11-12 14:50:15] :hubbard.freenode.net 002 Sharon :Your host is hubbard.freenode.net[128.237.157.136/6667], running version ircd-seven-1.1.3
+[2013-11-12 14:50:15] :hubbard.freenode.net 003 Sharon :This server was created Mon Dec 31 2012 at 16:39:09 EST
+[2013-11-12 14:50:15] :hubbard.freenode.net 004 Sharon hubbard.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI[2013-11-12 14:50:15] 
+[2013-11-12 14:50:15] :hubbard.freenode.net 005 Sharon CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+[2013-11-12 14:50:15]  MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+[2013-11-12 14:50:15] :hubbard.freenode.net 005 Sharon CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTIC[2013-11-12 14:50:15] E DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this serve[2013-11-12 14:50:15] r
+[2013-11-12 14:50:15] :hubbard.freenode.net 005 Sharon EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+[2013-11-12 14:50:15] :hubbard.freenode.net 251 Sharon :There are 204 users and 89026 invisible on 29 servers
+[2013-11-12 14:50:15] :hubbard.freenode.net 252 Sharon 30 :IRC Operators online
+[2013-11-12 14:50:15] :hubbard.freenode.net 253 Sharon 10 :unknown connection(s)
+[2013-11-12 14:50:15] :hubbard.freenode.net 254 Sharon 52448 :channels formed
+[2013-11-12 14:50:15] :hubbard.freenode.net 255 Sharon :I have 4597 clients and 1 servers
+[2013-11-12 14:50:15] :hubbard.freenode.net 265 Sharon 4597 5883 :Current local users 4597, max 5883
+[2013-11-12 14:50:15] :hubbard.freenode.net 266 Sharon 89230 92583 :Current global users 89230, max 92583
+[2013-11-12 14:50:15] :hubbard.freenode.net 250 Sharon :Highest connection count: 5884 (5883 clients) (480295 connections received)
+[2013-11-12 14:50:15] :hubbard.freenode.net 375 Sharon :- hubbard.freenode.net Message of the Day - 
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- Massive thanks to Carnegie Mellon University (http://www.cmu.edu) and 
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- the CMU Computer Club for sponsoring this server!
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :-  
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- Hubbard, Lafayette Ronald [1911 - 1986]. Was an american Sci-Fi writer, 
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- perhaps more famed for devising Dianetics and Scientology.
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- Welcome to freenode - supporting the free and open source
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- software communities since 1998.
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :-  
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- By connecting to freenode you indicate that you have read and
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- agree to adhere to our policies and procedures as per the
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- website (http://freenode.net/).
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :-  
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- We would like to remind you that unauthorised public logging
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- of channels on the network is prohibited. Public channel
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- logging should only take place where the channel owner(s) has
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- requested this and users of the channel are all made aware
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- (if you are publically logging your channel, you may wish to 
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- keep a notice in the topic and perhaps as an on-join message).
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :-  
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- freenode runs an open proxy scanner. For details on freenode 
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- network policy, please take a look at our policy page 
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- (http://freenode.net/policy.shtml).  Your use of the network
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- indicates your acceptance of this policy.
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :-  
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- Please join #freenode for any network-related questions or
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- queries, there are numerous freenode volunteers and helpful
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- users who would be happy to try answer any questions you might
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- have.
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :-  
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- Check out www.fossevents.org to find out what is happening in
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- your area, join us at FOSSCON (www.fosscon.org) for talks and
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- real-life collaboration or bring a picnic and come join
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- close to you. 
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- Lastly, massive thanks to the OSU Open Source Lab
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- (http://osuosl.org/) and Private Internet Access
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- (https://www.privateinternetaccess.com/) for their sustained,
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- long term support and dedication they show to the FOSS
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- communities.
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :-  
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- ***************************************************************
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+[2013-11-12 14:50:15] :hubbard.freenode.net 372 Sharon :- ***************************************************************
+[2013-11-12 14:50:15] :hubbard.freenode.net 376 Sharon :End of /MOTD command.
+[2013-11-12 14:50:15] :Sharon MODE Sharon :+i
+[2013-11-12 14:50:15] :NickServ!NickServ@services. NOTICE Sharon :This nickname is registered. Please choose a different nickname, or identify via /[2013-11-12 14:50:15] msg NickServ identify <password>.
+[2013-11-12 14:50:21] :Sharon!~Sharon@68-22-13-155.moeller.com JOIN ##antiB9
+[2013-11-12 14:50:21] :hubbard.freenode.net 332 Sharon ##antiB9 :[Anti-B9] Blackjack and Hookers | http://pastebin.com/R64wvXB4 | We're adults, polic[2013-11-12 14:50:21] e yourself
+[2013-11-12 14:50:21] :hubbard.freenode.net 333 Sharon ##antiB9 Demannu!quassel@2600:3c03::f03c:91ff:fe69:ed1a 1383970671
+[2013-11-12 14:50:21] :hubbard.freenode.net 353 Sharon = ##antiB9 :Sharon Zimdale @Demannu @SkySom @creativecoding @ChanServ brayden @CoreSystems
+[2013-11-12 14:50:21] :hubbard.freenode.net 366 Sharon ##antiB9 :End of /NAMES list.
+[2013-11-12 14:51:11] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :WHY AM I NOT AN OP
+[2013-11-12 14:52:08] :SkySom!~SkySom@162.243.21.185 MODE ##antiB9 +o Zimdale
+[2013-11-12 14:52:13] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :CAUSE YOU KEEP LEAVING
+[2013-11-12 14:52:25] PING :hubbard.freenode.net
+[2013-11-12 14:52:29] :SkySom!~SkySom@162.243.21.185 MODE ##antiB9 -o Demannu
+[2013-11-12 14:52:37] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :THAT'S FOR HARD CODING SHIT IN
+[2013-11-12 14:52:58] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :ASSHORE
+[2013-11-12 14:53:12] :Zimdale!~marshs@68-22-13-155.moeller.com MODE ##antiB9 +Sr 
+[2013-11-12 14:53:25] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :crap
+[2013-11-12 14:53:27] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :what did I do?
+[2013-11-12 14:54:22] :SkySom!~SkySom@162.243.21.185 MODE ##antiB9 -Sr 
+[2013-11-12 14:54:27] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :Don't know.
+[2013-11-12 14:54:35] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :S is secret I think
+[2013-11-12 14:54:43] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :it's /mode channel user +o right?
+[2013-11-12 14:54:57] PING :hubbard.freenode.net
+[2013-11-12 14:54:59] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :ohhhh
+[2013-11-12 14:55:06] :Zimdale!~marshs@68-22-13-155.moeller.com MODE ##antiB9 +o Sharon
+[2013-11-12 14:55:08] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :there we go
+[2013-11-12 14:55:20] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!deop SkySom
+[2013-11-12 14:55:20] :Sharon!~Sharon@68-22-13-155.moeller.com MODE ##antiB9 -o SkySom
+[2013-11-12 14:55:24] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :SHHARRRON
+[2013-11-12 14:55:28] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :!op SkySom
+[2013-11-12 14:55:28] :Sharon!~Sharon@68-22-13-155.moeller.com MODE ##antiB9 +o SkySom
+[2013-11-12 14:55:39] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :There
+[2013-11-12 14:55:40] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :sharon is working
+[2013-11-12 14:55:45] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :!deop Zimdale
+[2013-11-12 14:55:45] :Sharon!~Sharon@68-22-13-155.moeller.com MODE ##antiB9 -o Zimdale
+[2013-11-12 14:55:49] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :now I guess I should commit my changes
+[2013-11-12 14:55:55] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!deop Sharon
+[2013-11-12 14:56:03] :SkySom!~SkySom@162.243.21.185 MODE ##antiB9 -o Sharon
+[2013-11-12 14:56:04] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :ACTION slaps Sharon 
+[2013-11-12 14:56:10] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!op Zimdale
+[2013-11-12 14:56:10] :hubbard.freenode.net 482 Sharon ##antiB9 :You're not a channel operator
+[2013-11-12 14:56:14] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :NOW I'M IN CONTROL
+[2013-11-12 14:56:19] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :SHE CAN'T DO THAT.
+[2013-11-12 14:56:19] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :oh you dick
+[2013-11-12 14:56:25] :SkySom!~SkySom@162.243.21.185 MODE ##antiB9 +o Sharon
+[2013-11-12 14:56:29] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!op Zimdale
+[2013-11-12 14:56:29] :Sharon!~Sharon@68-22-13-155.moeller.com MODE ##antiB9 +o Zimdale
+[2013-11-12 14:56:31] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :there we go
+[2013-11-12 14:56:35] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!deop SkySom
+[2013-11-12 14:56:35] :Sharon!~Sharon@68-22-13-155.moeller.com MODE ##antiB9 -o SkySom
+[2013-11-12 14:56:36] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 ::)
+[2013-11-12 14:56:40] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :!op SkySom
+[2013-11-12 14:56:40] :Sharon!~Sharon@68-22-13-155.moeller.com MODE ##antiB9 +o SkySom
+[2013-11-12 14:56:53] :SkySom!~SkySom@162.243.21.185 PRIVMSG ##antiB9 :!op me bitch
+[2013-11-12 14:56:53] :hubbard.freenode.net 401 Sharon me :No such nick/channel
+[2013-11-12 14:57:03] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :!part ##antiB9
+[2013-11-12 14:57:03] :Sharon!~Sharon@68-22-13-155.moeller.com PART ##antiB9
+[2013-11-12 14:57:15] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG Sharon :!join ##antib9
+[2013-11-12 14:57:15] :Sharon!~Sharon@68-22-13-155.moeller.com JOIN ##antiB9
+[2013-11-12 14:57:16] :hubbard.freenode.net 332 Sharon ##antiB9 :[Anti-B9] Blackjack and Hookers | http://pastebin.com/R64wvXB4 | We're adults, polic[2013-11-12 14:57:16] e yourself
+[2013-11-12 14:57:16] :hubbard.freenode.net 333 Sharon ##antiB9 Demannu!quassel@2600:3c03::f03c:91ff:fe69:ed1a 1383970671
+[2013-11-12 14:57:16] :hubbard.freenode.net 353 Sharon = ##antiB9 :Sharon @Zimdale Demannu @SkySom @creativecoding @ChanServ brayden @CoreSystems
+[2013-11-12 14:57:16] :hubbard.freenode.net 366 Sharon ##antiB9 :End of /NAMES list.
+[2013-11-12 14:57:19] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :neat
+[2013-11-12 14:57:24] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :Demannu has been working hard I guess
+[2013-11-12 14:57:43] :Zimdale!~marshs@68-22-13-155.moeller.com PRIVMSG ##antiB9 :Someone REALLY needs to work on this event handler though
+[2013-11-12 14:59:23] PING :hubbard.freenode.net
