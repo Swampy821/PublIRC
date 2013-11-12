@@ -6,7 +6,7 @@
 //		return;
 //	}
 //}
-
+include_once 'sql.class.php';
 include_once 'commands/CakeFart.php';
 include_once 'commands/Ping.php';
 include_once 'commands/Hooker/Hooker.php';
