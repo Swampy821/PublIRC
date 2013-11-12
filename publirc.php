@@ -8,9 +8,8 @@
 //}
 
 include_once 'sql.class.php';
-include_once 'commands/CakeFart.php';
 include_once 'commands/currency/currency.php';
-include_once 'commands/basicAdmin.php';
+include_once 'commands/basicAdmin/basicAdmin.php';
 include_once 'commands/highdeas.php';
 include_once 'commands/Ping.php';
 include_once 'commands/Hooker/Hooker.php';
