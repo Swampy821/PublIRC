@@ -6,11 +6,11 @@ set_time_limit(0);
 ini_set('display_errors', 'on');
 
 $config = array(
-    'server' => 'irc.freenode.net',
+    'server' => 'irc.phpfreaks.com',
     'port'   => 6667,
-    'nick'   => 'TheRealPublIRC',
-    'user'   => 'slimshadirc',
-    'name'   => 'Core Dun Did PHP',
+    'nick'   => 'DeDubs',
+    'user'   => 'Kushner', 
+    'name'   => 'DeDubsKushner',
     'pass'   => ''
 );
 

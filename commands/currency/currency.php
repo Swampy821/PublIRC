@@ -16,12 +16,6 @@ class currency extends currency_plugin implements IRCScript {
         $this->bot = $bot;
 	}
     public function message($user, $channel, $message) {
-    	$db = array(
-	'user' => 1,
-	'username' => 'Demannu',
-	'balance' => '1337',
-	'hi_balance' => 1337
-	);
     	$boom = explode(" ", $message);
 		if($boom[0]=='!money'){
 		  	if($boom[1]=="balance"){
@@ -43,6 +37,7 @@ class currency extends currency_plugin implements IRCScript {
 		  			$this->transferMoney($user, $boom[2], $boom[3]);
 					$message4 = 'The transfer of $'.$boom[4].' From '.$user.' To '.$boom[3].' Has been completed.';
 					$this->bot->irc_message($user, $message4);
+					$this->bot->irc_message($boom[3], $message4);
 				} else {
 					$er_no2 = "Hey Asshole, you can only transfer from you to someone else";
 					$this->bot->irc_message($channel, $er_no2);
