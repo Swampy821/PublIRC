@@ -63,6 +63,9 @@ class basicAdmin implements IRCScript {
 			
 			$this->bot->irc_part_channel($bA_boom[1]);
 			
+		} elseif($bA_boom[0]=='!topic') {
+			$message1 = substr(strtolower($message),6,strlen($message));
+			$this->bot->irc_topic($channel, $message1);
 		}
 		
     }
@@ -103,7 +106,7 @@ class basicAdmin implements IRCScript {
     public function all($line) {
     	$stamp = date("Y-m-d H:i:s");
 		$log_line = "[".$stamp."] ".$line;
-		$openlog = fopen('c:/wamp/www/PublIRC/PublIRC/data/log.dat', 'a+');
+		$openlog = fopen('data/log.dat', 'a+');
 		fwrite($openlog, $log_line);
 		fclose($openlog);
     }

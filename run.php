@@ -8,11 +8,11 @@ ini_set('display_errors', 'on');
 $config = array(
     'server' => 'irc.freenode.net',
     'port'   => 6667,
-    'nick'   => 'Sharon',
-    'user'   => 'Sharon', 
-    'name'   => 'Sharon',
+    'nick'   => 'DeDubs',
+    'user'   => 'Kushner', 
+    'name'   => 'DeDubs Kushner',
     'pass'   => '',
-	'startup_channel' => ''
+	'startup_channel' => '##antib9'
 );
 
 $irc = new PublIRC($config);

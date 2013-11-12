@@ -7,7 +7,7 @@ class hooker_system {
 
     var $flat_string;
     
-    var $hook_path = 'C:/wamp/www/PublIRC/PublIRC/commands/Hooker/hooks.dat';
+    var $hook_path = 'hooks.dat';
 
     public function build_product_array()
     {

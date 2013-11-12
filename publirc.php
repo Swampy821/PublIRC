@@ -150,6 +150,10 @@ class PublIRC {
 	function irc_deop($channel, $user) {
 		$this->send_line('MODE ' . $channel . ' -o ' . $user);
 	}
+	
+	function irc_topic($channel, $message) {
+		$this->send_line('TOPIC ' . $channel . ' :' . $message);
+	}
 }
 
 class IRCColor {
