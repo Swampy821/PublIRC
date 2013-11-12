@@ -6,25 +6,31 @@
 //		return;
 //	}
 //}
+
+include_once 'sql.class.php';
+include_once 'commands/CakeFart.php';
 include_once 'commands/currency/currency.php';
 include_once 'commands/basicAdmin.php';
 include_once 'commands/highdeas.php';
 include_once 'commands/Ping.php';
-
+include_once 'commands/Hooker/Hooker.php';
+include_once 'commands/Basics.php';
 class PublIRC {
 	private $socket = NULL;
-	private $config = array(
+	public $config = array(
 		'server' => '',
 		'port'   => 6667,
 		'nick'   => '',
 		'user'   => '',
 		'name'   => '',
-		'pass'   => ''
+		'pass'   => '',
+		'startup_channel' => ''
 	);
 	private $running = true;
 	private $loaded_modules = array();
 
 	function __construct($config) {
+		global $argc, $argv;
 		$this->config = $config;
 
 		// TODO: Proper dynamic loading
@@ -32,11 +38,44 @@ class PublIRC {
 		array_push($this->loaded_modules, new basicAdmin($this));
 		array_push($this->loaded_modules, new currency($this));
 		array_push($this->loaded_modules, new Ping($this));
+		array_push($this->loaded_modules, new Hooker($this));
+		array_push($this->loaded_modules, new Basics($this));
 
 		$this->socket = fsockopen($this->config['server'], $this->config['port']);
 		stream_set_blocking($this->socket, 0);
 		$this->connect();
-		$this->irc_join_channel('##antib9'); // TODO: Proper startup channel system
+		/*-------------Channel Startup code-------------*/
+		//Check if get variable is set
+		if(isset($_GET[0]))
+		{
+			//If get variable is set use that as the channel
+
+			//check to make sure it's an actual IRC channel
+			if(substr($_GET[0],0,1)=='#')
+			{
+				//Join the channel
+				$this->irc_join_channel($_GET[0]);
+			}else{
+				//If not a legit channel quit the bot.
+				$this->irc_quit();
+			}
+		}else if(isset($argv[1]))
+		{
+			//Check to make sure $argv[1] is actually an IRC channel
+			if(substr($argv[1],0,1)=='#')
+			{
+				//Join the IRC channel
+				$this->irc_join_channel($argv[1]);
+			}else{
+				//Invalid channel, close the bot.
+				$this->irc_quit();
+			}
+		}else{
+			//Join the default channel.
+			$this->irc_join_channel($this->config['startup_channel']);
+		}
+		/*-----------End Channel Startup Code--------------*/
+
 	}
 
 	function run() {
@@ -44,7 +83,6 @@ class PublIRC {
 			$data = fgets($this->socket, 128);
 			$this->log($data);
 			flush();
-
 			$this->process_line($data);
 		}
 	}
@@ -57,8 +95,8 @@ class PublIRC {
 					$module->message(substr(explode('!', $explodedData[0])[0], 1), $explodedData[2], rtrim(substr(implode(array_slice($explodedData, 3), ' '), 1)));
 				}
 				$module->all($data);
-				// TODO: Support for all plugin events.
-			}
+					// TODO: Support for all plugin events.
+				}
 		}
 	}
 
