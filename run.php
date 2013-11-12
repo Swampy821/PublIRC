@@ -6,12 +6,12 @@ set_time_limit(0);
 ini_set('display_errors', 'on');
 
 $config = array(
-	'server' => 'irc.freenode.net',
-	'port'   => 6667,
-	'nick'   => 'TripleS',
-	'user'   => 'TripleS',
-	'name'   => 'Core Dun Did PHP',
-	'pass'   => 'sky1215'
+    'server' => 'irc.freenode.net',
+    'port'   => 6667,
+    'nick'   => 'TheRealPublIRC',
+    'user'   => 'slimshadirc',
+    'name'   => 'Core Dun Did PHP',
+    'pass'   => ''
 );
 
 $irc = new PublIRC($config);

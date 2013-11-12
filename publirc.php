@@ -21,7 +21,7 @@ class PublIRC {
 		'pass'   => ''
 	);
 	private $running = true;
-	public $loaded_modules = array();
+	private $loaded_modules = array();
 
 	function __construct($config) {
 		$this->config = $config;
