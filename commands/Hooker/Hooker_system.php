@@ -14,6 +14,8 @@ class hooker_system {
         //Build hooking products array. 
         $building_array = array();
         $building_array_2 = array();
+        $fpath = pathinfo(__FILE__);
+        $this->hook_path = $fpath['dirname']."\\".$this->hook_path;
         $file = fopen($this->hook_path,'a+');
         $file_size = filesize($this->hook_path);
         $this->flat_string = fread($file,$file_size);

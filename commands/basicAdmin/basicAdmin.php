@@ -108,10 +108,12 @@ class basicAdmin implements IRCScript {
     }
 
     public function all($line) {
+    	$fpath = pathinfo(__FILE__);
+        $log_file_path = $fpath['dirname']."\\..\\..\\data\\log.dat";
     	date_default_timezone_set('America/Detroit');
         $stamp = date("Y-m-d H:i:s");
 		$log_line = "[".$stamp."] ".$line;
-		$openlog = fopen('data/log.dat', 'a+');
+		$openlog = fopen($log_file_path, 'a+');
 		fwrite($openlog, $log_line);
 		fclose($openlog);
     }
