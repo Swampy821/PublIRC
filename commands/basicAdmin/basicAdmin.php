@@ -108,7 +108,8 @@ class basicAdmin implements IRCScript {
     }
 
     public function all($line) {
-    	$stamp = date("Y-m-d H:i:s");
+    	date_default_timezone_set('America/Detroit');
+        $stamp = date("Y-m-d H:i:s");
 		$log_line = "[".$stamp."] ".$line;
 		$openlog = fopen('data/log.dat', 'a+');
 		fwrite($openlog, $log_line);
