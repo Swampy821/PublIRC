@@ -12,7 +12,7 @@ $config = array(
     'user'   => 'Sharon', 
     'name'   => 'Sharon',
     'pass'   => '',
-	'startup_channel' => '##antib9'
+	'startup_channel' => '##publIRC'
 );
 
 $irc = new PublIRC($config);
