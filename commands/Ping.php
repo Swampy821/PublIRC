@@ -47,7 +47,8 @@ class Ping implements IRCScript {
 
     public function all($line) {
         if (strpos($line, 'PING') === 0 and strpos($line, ' ') !== FALSE) {
-            $this->bot->send_line('PONG ' . explode(' ', $line)[1]);
+            $exp = explode(' ',$line);
+            $this->bot->send_line('PONG ' . $exp[1]);
         }
     }
 }
