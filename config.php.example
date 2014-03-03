@@ -1,0 +1,13 @@
+<?php
+
+$config = array(
+    'server' => 'irc.freenode.net',
+    'port'   => 6667,
+    'nick'   => 'Sharon',
+    'user'   => 'Sharon', 
+    'name'   => 'Sharon',
+    'pass'   => '',
+	'startup_channel' => '##publIRC'
+);
+
+?>
